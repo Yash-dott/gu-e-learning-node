@@ -28,13 +28,13 @@ const appUserForgetPassword = async (req, res) => {
         host: 'smtp.gmail.com',
         port: 587,
         auth: {
-            user: 'agrac408@gmail.com',
-            pass: 'wcjmaggojcrjhceg'
+            user: 'galgotiasicloud@gmail.com',
+            pass: 'nyhxdhxjcisflklz'
         }
     });
 
      await transporter.sendMail({
-        from: 'agrac408@gmail.com',
+        from: 'galgotiasicloud@gmail.com',
         to: student.email,
         subject: "Forgot Password",
          text: `Hello ${student.name},\n\nYour password has been successfully reset. \n\n\n\n Your new password is: ${password} Please use this password to log in to the Campus Connect application.\n\nThank you,\nAgra College, Agra`,
