@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "27Zd3hArTrzjFW1.root",
-    "password": "MSQUCwN6ATbgrckp",
-    "database": "agraCollege",
+    "username": "4LYLKSQtRBBXUet.root",
+    "password": "KmG1Bt0yS2vOPpf8",
+    "database": "gu_ems",
     "port": 4000,
     "host": "gateway01.ap-southeast-1.prod.aws.tidbcloud.com",
     "dialect": "mysql",
@@ -20,9 +20,9 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "27Zd3hArTrzjFW1.root",
-    "password": "MSQUCwN6ATbgrckp",
-    "database": "agraCollege",
+    "username": "4LYLKSQtRBBXUet.root",
+    "password": "KmG1Bt0yS2vOPpf8",
+    "database": "gu_ems",
     "port": 4000,
     "host": "gateway01.ap-southeast-1.prod.aws.tidbcloud.com",
     "dialect": "mysql",

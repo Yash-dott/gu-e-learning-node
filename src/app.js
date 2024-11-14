@@ -6,12 +6,7 @@ const app = express();
 const cors = require('cors')
 app.use(cors({
     origin: [
-        "http://localhost:3000",
-        "https://agra-college-admin.000webhostapp.com",
-        "https://gochat.technosters.co.in",
-        "http://localhost:3001",
-        "https://ag-admin.000webhostapp.com",
-        "https://agra-college-panel.onrender.com"
+        "https://gu-ems-react.onrender.com"
     ]
 }))
 app.use(FileUpload({
@@ -23,5 +18,4 @@ app.use(express.static("assets"));
 // app.use(bodyParser.urlencoded({ extended: true }));
 
 
-
-module.exports = { app };
+module.exports = {app};
