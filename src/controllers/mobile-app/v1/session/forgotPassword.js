@@ -43,8 +43,8 @@ const appUserForgetPassword = async (req, res) => {
                 <p>Hello ${student.name},</p>
                 <p>Your password has been successfully reset.</p>
                 <p>Your new password is: <b>${password}</b></p>
-                <p>Please use this password to log in to the Campus Connect application.</p>
-                <p>Thank you,<br>Agra College, Agra</p>
+                <p>Please use this password to log in to the GU-EMS appication.</p>
+                <p>Thank you
             </div>
         `
     });
