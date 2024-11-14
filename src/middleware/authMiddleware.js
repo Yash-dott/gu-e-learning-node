@@ -29,7 +29,10 @@ const studentAppAuthMiddleware = () => async (req, res, next) => {
         return res.status(401).json(error(errorMessage));
     }
     const student = await  Student.findByPk(response.user.id);
-    if (!student.status){
+    if (!student){
+        return res.status(401).json(error("Student not found!"));
+    }
+    if (!student?.status){
         return res.status(401).json(error("You are inactive by admin!"));
     }
     req.response = response
