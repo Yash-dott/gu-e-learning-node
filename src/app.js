@@ -6,7 +6,8 @@ const app = express();
 const cors = require('cors')
 app.use(cors({
     origin: [
-        "https://gu-ems-react.onrender.com"
+        "https://gu-ems-react.onrender.com",
+        "http://localhost:3000"
     ]
 }))
 app.use(FileUpload({
